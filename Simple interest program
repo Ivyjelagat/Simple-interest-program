@@ -1,0 +1,32 @@
+//program to calculate a simple interest
+/*
+Author Ivy kemboi
+Date 20/9/2024
+Reg no CT101/G/24882/24
+*/
+# include <stdio.h>
+int main (){
+	float  principal_amount;
+	float  time ;
+	float  rate ; 
+	float  simple_interest ;
+	
+	
+
+
+  printf("Enter the principal_amount in percentage");
+  scanf("%f",& principal_amount);
+  
+  printf("Enter the time in years");
+  scanf("%f", & time);
+  
+  printf("Enter the rate in percentage");
+  scanf("%f" , & rate);
+   
+'simple_intrest=(principal_amount *rate*time)/100' ;
+ 
+ 
+   printf("Calculate the simple_interest in %2f \n " , 'simple interest');
+   
+   return 0;
+}
